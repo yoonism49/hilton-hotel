@@ -1,5 +1,7 @@
 # Hilton assessment
-React + Redux sample
+React + Redux sample and Assessment for Hilton!
+
+Once the site is built using 'npm install', 
 
 First Task can be checked at:
 
