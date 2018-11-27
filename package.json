@@ -1,5 +1,5 @@
 {
-    "name": "hotelmanagement",
+    "name": "hilton-hotel",
     "version": "1.0.0",
     "description": "Very minimal react and redeux example",
     "main": "./src/index.js",
