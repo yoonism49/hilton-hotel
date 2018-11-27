@@ -16,13 +16,13 @@ It has bare minimum to start development:
 * Webpack
 * Babel and css loaders
 
-https://github.com/yoonism49/hotelmanagement
+https://github.com/yoonism49/hilton-hotel
 
 
 ## Installation
 Clone from repository:
 ```
-$ git clone https://github.com/yoonism49/hotelmanagement.git
+$ git clone https://github.com/yoonism49/hilton-hotel.git
 ```
 Install dependencies:
 ```js
