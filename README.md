@@ -7,8 +7,6 @@ http://localhost:8080/Assessment1.html
 
 Second Task can be checked at:
 
-First Task can be checked at:
-
 http://localhost:8080/
 
 
