@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2') format('woff2'),
+	   url('/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff') format('woff'),
+       url('/fonts/890bd988-5306-43ff-bd4b-922bc5ebdeb4.ttf') format('ttf'),
+	   url('/fonts/12d643f2-3899-49d5-a85b-ff430f5fad15') format('eot');
+}
+body {
+   background-image: url(/img/background.png);
+}
+.section-content {
+	margin:10px;
+}
+.section-header .section-img
+{
+	width: 93%;
+	height: 60%;
+	background: url(/img/hotelexterior.jpg) 100% no-repeat;
+	margin: 5px;
+	padding: 0px;
+	background-size: cover;
+	border: 5px solid #FFF;
+}
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .section-header .section-img {
+        width: 93%;
+		height: 60%;
+		margin: 7px;
+    }
+}
+/* Tablets, iPads, desktops (portrait and landscape) ---------- */
+@media screen and (min-width: 768px){
+    .section-header .section-img {
+        width: 98%;
+		height: 60%;
+		margin: 8px;
+    }
+}
+
+
+h2 {
+	font-size: 1.4rem;
+    letter-spacing: .25rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    font-family: AvenirNext-Bold;
+    font-weight: 700;
+    height: 20px;
+    text-align: left;
+	color: white;
+}
+h4 {
+	font-size: .8em;
+    letter-spacing: .25rem;
+    line-height: 1rem;
+    font-weight: 600;
+    font-family: AvenirNext-Bold;
+    font-weight: 700;
+    height: 20px;
+    text-align: left;
+	color: white;
+	margin-right: .25rem;
+	margin-top: .25rem;
+	margin-bottom: .25rem;
+}
+@media screen and (min-width: 375px) and (max-width: 767px){
+    h4 {
+        font-size: 1em;
+		line-height: 2.2rem;
+		height: 25px;
+	}
+}
+@media screen and (min-width: 1024px) {
+    h4 {
+        	font-size: 1em;
+			line-height: 2.2rem;
+			height: 25px;
+	}
+}
+.section-menu {
+	width: 265px;
+    padding: 0px 10px;
+	border: 1px solid #ccc;
+	height: 28px;
+	background-image: linear-gradient(-180deg, #81b5cc, #fbfbff);
+	color:#01011e;
+	font-family: AvenirNext-Bold;
+}
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .section-menu {
+        width: 320px;
+        padding: 0px 10px;
+	}
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .section-menu {
+        width: 710px;
+        padding: 0px 10px;
+	}
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    .section-menu {
+        width: 960px;
+        padding: 5px 15px;
+	}
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    .section-menu {
+        width: 1200px;
+        padding: 5px 20px;
+    }
+}
+	
+
+.collapsible-header:focus {
+	background-color: #eee;
+}
+.collapsible-collapsed .collapsible-header {
+	background-image: url(img/tri-right.png);
+}
