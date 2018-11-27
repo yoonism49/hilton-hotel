@@ -6,7 +6,7 @@
     "scripts": {
         "start": "webpack-dev-server"
     },
-    "repository": "https://github.com/yoonism49/hotelmanagement.git",
+    "repository": "https://github.com/yoonism49/hilton-hotel.git",
     "keywords": [
         "react",
         "webpack",
