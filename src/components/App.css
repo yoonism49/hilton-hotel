@@ -40,7 +40,15 @@ input {
     margin-top: 50px;
 }
 .dropdown-disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    width:50px;
+    height:30px;
+}
+.dropdown-enabled {
 
+    width:50px;
+    height:30px;
 }
 .room {
     width: 22%;
@@ -71,36 +79,4 @@ input {
 }
 .enabled-room {
     background-color: #fee6f3;
-}
-
-.project-card {
-    display: block;
-    position: relative;
-    padding: 20px;
-    text-align: left;
-    text-decoration: none;
-    background-color: #fff;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 1px 2px rgba(0,0,0,.05);
-}
-.project-card .card-text {
-    margin: 0;
-}
-.project-card:hover .card-remove {
-    display: block;
-}
-.project-card .card-remove {
-    display: none;
-    position: absolute;
-    height: 16px;
-    width: 16px;
-    border-radius: 8px;
-    right: 15px;
-    top: 22px;
-    line-height: 15px;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    background-color: #fd5b71;
 }
